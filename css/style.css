@@ -3,9 +3,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+html {
+    background-image: url(../images/dark_geometric.png);
+}
 header {
     text-align: center;
+    color:#fff;
 }
 
 h1 {
@@ -26,10 +29,12 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    border: 1px black solid;
-
+    text-decoration: none; 
+    padding:0.5em;   
+    color:#fff;
 }
 
+/*gestion menu déroulant*/
 .sousmenu ul {
     position: absolute;
     z-index: 1000;
@@ -41,12 +46,22 @@ nav ul li a {
     -moz-transition: .8s all .3s;
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
+    display:block;
 }
 .sousmenu ul li{
     width:100%;
 }
+
 .sousmenu:hover ul{
     max-height:15em;
-    display:block;
-    width:100%;
+    background-image: url(../images/dark_geometric.png);
+   
+}
+
+.presentation, .resume_article{
+    width:90%;
+    margin:2em auto;
+    background-color: #fff;
+    padding:1em;
+    border-radius: 15%;
 }
