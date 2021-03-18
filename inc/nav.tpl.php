@@ -22,14 +22,14 @@ $nav['Yokai'] = $tableau;
         foreach ($nav as $page => $url) :
             if (is_array($url)) :
         ?>
-                <li class="sousmenu"><a href="#" ><?= $page ?></a>
+                <li class="sousmenu"><a class="hover_nav" href="#" ><?= $page ?></a>
                     <ul >
                         <?php
                         foreach ($url as $nom => $url_article) :
                         ?>
 
 
-                            <li><a href="<?= $url_article ?>"><?= $nom ?></a></li>
+                            <li><a class="hover_nav" href="<?= $url_article ?>"><?= $nom ?></a></li>
 
                         <?php
                         endforeach;
@@ -40,7 +40,7 @@ $nav['Yokai'] = $tableau;
             else :
 
             ?>
-                <li><a href="<?= $url ?>"><?= $page ?></a></li>
+                <li><a class="hover_nav" href="<?= $url ?>"><?= $page ?></a></li>
         <?php
             endif;
         endforeach;

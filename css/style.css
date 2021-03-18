@@ -17,11 +17,18 @@ h1 {
     font-size: 2em;
     padding: 1em 0;
 }
-
+nav {
+    background-image: url(../images/groovepaper/groovepaper.png);
+    margin:0 auto;
+    border-top: 1px solid #cabca3;
+    border-bottom: 1px solid #cabca3;
+}
 nav ul {
+    
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    
 }
 
 nav ul li {
@@ -35,7 +42,10 @@ nav ul li a {
     padding:0.5em;   
     color: #655a48;
 }
+.hover_nav:hover{
+    text-shadow: 3px 4px 9px rgba(0, 0, 0, 1); 
 
+}
 /*gestion menu déroulant*/
 .sousmenu ul {
     position: absolute;
@@ -49,7 +59,11 @@ nav ul li a {
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
     display:block;
-    background-image: url(../images/arches/arches.png);
+    background-image: url(../images/groovepaper/groovepaper.png);
+    border-right:1px solid #cabca3 ;
+    border-left:1px solid #cabca3 ;
+    
+    border-bottom:1px solid #cabca3 ;
 }
 .sousmenu ul li{
     width:100%;
@@ -57,24 +71,28 @@ nav ul li a {
 
 .sousmenu:hover ul{
     max-height:15em;
-    background-image: url(../images/arches/arches.png);
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    background-image: url(../images/groovepaper/groovepaper.png);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom:1px solid #cabca3 ;
+    
+   
 }
 
-.presentation, .summary_responsive{
+.presentation_responsive, .summary_responsive{
     width:70%;
     margin:2em auto;
     padding:1em 1em 0 1em;
     text-align: center;
-    
+    background-image: url(../images/groovepaper/groovepaper.png);
+    border: 1px solid #cabca3;
   
 }
 
 .summary_responsive {
     /* background-color: rgb(138, 138, 138); */
     display:flex;
-    width:80%;
+    
     flex-flow: row wrap;
 }
 .summary_responsive a {
