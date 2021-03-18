@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div class="wrapper">
     <header>
         <h1>Yokai on the watch</h1>
         <?php

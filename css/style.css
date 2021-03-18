@@ -3,12 +3,14 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-html {
-    background-image: url(../images/dark_geometric.png);
+body {
+    background-image: url(../images/arches/arches.png);
+    color: #655a48;
+    font-weight: bolder;
 }
 header {
     text-align: center;
-    color:#fff;
+    
 }
 
 h1 {
@@ -31,7 +33,7 @@ nav ul li a {
     display: block;
     text-decoration: none; 
     padding:0.5em;   
-    color:#fff;
+    color: #655a48;
 }
 
 /*gestion menu déroulant*/
@@ -47,6 +49,7 @@ nav ul li a {
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
     display:block;
+    background-image: url(../images/arches/arches.png);
 }
 .sousmenu ul li{
     width:100%;
@@ -54,14 +57,34 @@ nav ul li a {
 
 .sousmenu:hover ul{
     max-height:15em;
-    background-image: url(../images/dark_geometric.png);
-   
+    background-image: url(../images/arches/arches.png);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 
-.presentation, .resume_article{
-    width:90%;
+.presentation, .summary_responsive{
+    width:70%;
     margin:2em auto;
-    background-color: #fff;
-    padding:1em;
-    border-radius: 15%;
+    padding:1em 1em 0 1em;
+    text-align: center;
+    
+  
+}
+
+.summary_responsive {
+    /* background-color: rgb(138, 138, 138); */
+    display:flex;
+    width:80%;
+    flex-flow: row wrap;
+}
+.summary_responsive a {
+    width:50%;
+    margin-bottom: 1.5em;
+    color:#655a48;
+    text-decoration: none;
+}
+.image_responsive img{
+    width:50%;
+    border-radius: 50%;
+    
 }

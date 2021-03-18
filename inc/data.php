@@ -3,7 +3,7 @@
 $yokais = [
     1 => [
         'nom' => "Bakeneko",
-        'image' => "lorem",
+        'image' => "bakeneko.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
@@ -11,8 +11,8 @@ $yokais = [
 
     ],
     2 => [
-        'nom' => "Kuchisake",
-        'image' => "lorem",
+        'nom' => "Inugami",
+        'image' => "inugami.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
@@ -20,8 +20,8 @@ $yokais = [
 
     ],
     3 => [
-        'nom' => "Kurokurokubi",
-        'image' => "lorem",
+        'nom' => "Kamikiri",
+        'image' => "kamikiri.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
@@ -30,7 +30,7 @@ $yokais = [
     ],
     4 => [
         'nom' => "Tengu",
-        'image' => "lorem",
+        'image' => "kappa.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
@@ -38,8 +38,8 @@ $yokais = [
 
     ],
     5 => [
-        'nom' => "test",
-        'image' => "lorem",
+        'nom' => "Katakirauwa",
+        'image' => "Katakirauwa.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
@@ -47,8 +47,8 @@ $yokais = [
 
     ],
     6 => [
-        'nom' => "Batesto",
-        'image' => "lorem",
+        'nom' => "Rokurokubi",
+        'image' => "rokurokubi.jpg",
         'japonais' => "袋狢",
         'habitat' => "maison",
         'apparence' => "gros et moche",
