@@ -6,7 +6,7 @@
 body {
     background-image: url(../images/arches/arches.png);
     color: #655a48;
-    font-weight: bolder;
+    font-family: 'IM Fell Double Pica', serif;
 }
 header {
     text-align: center;
@@ -79,6 +79,8 @@ nav ul li a {
    
 }
 
+/*gestion page accueil en responsive*/
+
 .presentation_responsive, .summary_responsive{
     width:70%;
     margin:2em auto;
@@ -105,4 +107,35 @@ nav ul li a {
     width:50%;
     border-radius: 50%;
     
+}
+
+/*page Yokai en responsive*/
+.page_article article {
+    background-image: url(../images/natural_paper/natural_paper.png);
+    width:85%;
+    margin : 2em auto;
+    text-align: center;
+    border: 1px solid #cabca3;
+}
+.page_article h2 {
+    padding: 1.2em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.image_article_responsive img{
+    width : 80%;
+    border-radius: 50%;
+}
+.descriptif_article_responsive {
+    text-align: justify;
+    padding:1.5em;
+}
+.descriptif_article_responsive span {
+    text-transform:uppercase;
+    font-weight: bolder;
+
+}
+.descriptif_article_responsive p {
+    margin: 1em 0;
 }

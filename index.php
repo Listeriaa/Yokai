@@ -14,7 +14,7 @@ include "inc/header.tpl.php";
         <?php
             foreach ($yokais as $yokai => $detail) :
         ?>
-        <a href="article.php?article=<?=$yokai?>">
+        <a href="yokai.php?yokai=<?=$yokai?>">
             <article class="article article_responsive">
                 <div class="image image_responsive black">
                     <img src="images/<?=$detail['image']?>" alt="illustration de <?=$detail['nom']?>">

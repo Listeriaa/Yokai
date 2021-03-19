@@ -6,12 +6,15 @@ $nav = [
     "Aller plus loin"   => "aller_plus_loin.php"
 ];
 
-// $tableau=$nav["Yokai"];
-foreach ($yokais as $yokai => $details) {
 
-    $tableau[$details['nom']] = "article.php?article=$yokai";
+//Je veux remplir mon tableau nav dynamiquement avec les données du tableau yokai;
+//je crée donc un tableau ayant pour clé le nom du yokai et en valeur l'url (format GET), en parcourant le tableau des yokai
+foreach ($yokais as $numYokai => $details) {
+
+    $tableau[$details['nom']] = "yokai.php?yokai=$numYokai";
 };
 
+//je rajoute ce tableau en valeur de ma clé Yokai dans le tableau nav
 $nav['Yokai'] = $tableau;
 
 ?>
