@@ -8,7 +8,7 @@ include "inc/header.tpl.php";
 <main>
     <section class="presentation presentation_responsive">
         <h2>Qu'est ce qu'un Yokai?</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestias modi ut, eligendi et id ullam ab earum suscipit natus officia, vel optio quis at laborum neque libero in expedita fugiat. Libero ad, unde id adipisci soluta mollitia tenetur ipsum architecto aliquid modi fugiat tempora possimus harum deleniti pariatur rerum sequi sed voluptatibus, expedita beatae neque? </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestias modi ut, eligendi et id ullam ab earum suscipit natus officia, vel optio quis at laborum neque libero in expedita fugiat. Libero ad, unde id adipisci soluta mollitia tenetur ipsum architecto aliquid modi fugiat tempora possimus harum deleniti pariatur rerum sequi sed voluptatibus, expedita beatae neque? </p>
     </section>
     <section class="summary summary_responsive">
         <?php

@@ -41,6 +41,7 @@ nav ul li a {
     text-decoration: none; 
     padding:0.5em;   
     color: #655a48;
+    font-weight: bolder;
 }
 .hover_nav:hover{
     text-shadow: 3px 4px 9px rgba(0, 0, 0, 1); 
@@ -90,11 +91,16 @@ nav ul li a {
     border: 1px solid #cabca3;
   
 }
-
+.presentation_responsive h2 {
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-bottom: 0.8em;
+}
+.presentation_responsive p {
+    padding-bottom: 1em;
+}
 .summary_responsive {
-    /* background-color: rgb(138, 138, 138); */
     display:flex;
-    
     flex-flow: row wrap;
 }
 .summary_responsive a {
@@ -111,7 +117,7 @@ nav ul li a {
 
 /*page Yokai en responsive*/
 .page_article article {
-    background-image: url(../images/natural_paper/natural_paper.png);
+    background-image: url(../images/groovepaper/groovepaper.png);
     width:85%;
     margin : 2em auto;
     text-align: center;
