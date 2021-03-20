@@ -34,25 +34,26 @@ foreach ($yokais as $numYokai => $details) {
             include 'inc/nav.tpl.php';
             ?>
         </header>
-    <?php
-    //je veux afficher seulement un h2 si je suis sur une page Yokai.
-    //comme seules ces pages ont une variable $yokai, j'utilise isset 
-    //dans mon IF.
-    if (isset($yokai)):
-        ?>
-            <section class="presentation presentation_yokai presentation_responsive">
-            <h2><?=$presentation[$yokai]?></h2>
+        <?php
+        //je veux afficher seulement un h2 si je suis sur une page Yokai.
+        //comme seules ces pages ont une variable $yokai, j'utilise isset 
+        //dans mon IF.
+        if (isset($yokai)):
+            ?>
+                <section class="presentation presentation_yokai_responsive presentation_responsive">
+                <h2><?=$presentation[$yokai]?></h2>
+                </section>
+            <?php
+            
+            else :
+            ?>
+                <section class="presentation presentation_responsive">
+                <h2><?=$presentation[$title]['h2']?></h2>
+                <p><?=$presentation[$title]['p']?></p>
             </section>
-        <?php
-        
-        else :
+            <?php
+            endif;
+        include 'inc/footer/footer.screen.tpl.php';
         ?>
-            <section class="presentation presentation_responsive">
-            <h2><?=$presentation[$title]['h2']?></h2>
-            <p><?=$presentation[$title]['p']?></p>
-        </section>
-        <?php
-        endif;
-    
-    ?>
+
     </section>

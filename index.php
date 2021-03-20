@@ -4,13 +4,13 @@ $title = "Yōkai on the watch";
 include "inc/header.tpl.php";
 ?>
 
-<body>
+
 
 <?php
 include 'inc/left.tpl.php';
 ?>
     </section>
-    <section class="summary summary_responsive flex">
+    <section class="right summary_responsive flex">
         <?php
         //je souhaite afficher l'image et le nom de chaque page Yokai sur ma page accueil, gestion du lien vers la page via GET
         foreach ($yokais as $yokai => $detail) :
@@ -31,8 +31,5 @@ include 'inc/left.tpl.php';
     </section>
 
 <?php
-include 'inc/footer.tpl.php';
+include 'inc/footer/footer.resp.tpl.php';
 ?>
-</body>
-
-</html>

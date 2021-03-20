@@ -5,6 +5,6 @@ $title= $yokais[$yokai]["nom"];
 include 'inc/header.tpl.php';
 include 'inc/left.tpl.php';
 include 'inc/yokai.tpl.php';
-include 'inc/footer.tpl.php';
+include 'inc/footer/footer.resp.tpl.php';
 ?>
 
