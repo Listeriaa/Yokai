@@ -11,11 +11,3 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="wrapper">
-    <header>
-        <h1>Yokai on the watch</h1>
-        <?php
-        include 'inc/nav.tpl.php';
-        ?>
-    </header>

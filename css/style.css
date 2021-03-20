@@ -8,15 +8,28 @@ body {
     color: #655a48;
     font-family: 'IM Fell Double Pica', serif;
 }
+.flex {
+    display:flex;
+}
 header {
     text-align: center;
     
 }
 
+/* CSS des liens <a>*/
+a {
+    display: block;
+    text-decoration: none; 
+    padding:0.5em;   
+    color: #655a48;
+    font-weight: bolder;
+}
 h1 {
     font-size: 2em;
     padding: 1em 0;
 }
+
+/*gestion menu Nav*/
 nav {
     background-image: url(../images/groovepaper/groovepaper.png);
     margin:0 auto;
@@ -25,7 +38,7 @@ nav {
 }
 nav ul {
     
-    display: flex;
+    
     flex-flow: row nowrap;
     justify-content: center;
     
@@ -79,7 +92,19 @@ nav ul li a {
     
    
 }
-
+/* footer */
+footer {
+    text-align: center;
+    background-image: url(../images/groovepaper/groovepaper.png);
+    border-top: 1px solid #cabca3;
+    font-size: smaller;
+}
+footer a {
+    display: inline;
+}
+footer p {
+    padding-top:0.8em;
+}
 /*gestion page accueil en responsive*/
 
 .presentation_responsive, .summary_responsive{
@@ -100,7 +125,6 @@ nav ul li a {
     padding-bottom: 1em;
 }
 .summary_responsive {
-    display:flex;
     flex-flow: row wrap;
 }
 .summary_responsive a {
@@ -110,7 +134,7 @@ nav ul li a {
     text-decoration: none;
 }
 .image_responsive img{
-    width:50%;
+    width:70%;
     border-radius: 50%;
     
 }
@@ -144,4 +168,11 @@ nav ul li a {
 }
 .descriptif_article_responsive p {
     margin: 1em 0;
+}
+
+
+@media screen and (min-width: 550px) {
+    body {
+        font-size: 1.5em;
+    }
 }

@@ -1,5 +1,5 @@
 <?php
-include 'data.php';
+// include 'data.php';
 $nav = [
     "Accueil"   => "index.php",
     "Yokai" => [],
@@ -20,7 +20,7 @@ $nav['Yokai'] = $tableau;
 ?>
 
 <nav>
-    <ul>
+    <ul class="flex">
         <?php
         foreach ($nav as $page => $url) :
             if (is_array($url)) :
