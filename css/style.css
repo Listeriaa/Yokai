@@ -219,7 +219,7 @@ footer p {
     .left, .right, .page_article {
         width: 50%;
     }
-    .footer_responsive_hidden {
+    .hidden {
         display: none;
     }
     .footer_screen {
@@ -260,6 +260,10 @@ footer p {
         background-image: url(../images/arches/arches.png);
         width:100%;
         margin:0;
+    }
+    .image_float {
+        margin-top: 2em;
+        padding-bottom: 0.5em;
     }
     .summary_responsive{
         box-shadow: none;

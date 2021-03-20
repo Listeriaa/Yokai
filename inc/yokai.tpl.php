@@ -1,6 +1,6 @@
 <section class="page_article">
 <article>
-    <h2><?=$yokais[$yokai]["nom"]?> <?=$yokais[$yokai]["japonais"]?></h2>
+    <h2 class="hidden"><?=$yokais[$yokai]["nom"]?> <?=$yokais[$yokai]["japonais"]?></h2>
     <div class="image_article_responsive image_float">
         <img src="images/<?=$yokais[$yokai]["image"]?>" alt="illustration de <?=$yokais[$yokai]["nom"]?>">
     </div>
