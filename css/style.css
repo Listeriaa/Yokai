@@ -250,6 +250,11 @@ footer p {
     }
     .presentation_yokai_responsive {
         display:block;
+        text-transform: uppercase;
+        font-size: smaller;
+    }
+    .descriptif_article_responsive{
+        padding:2em;
     }
     .page_article article{
         background-image: url(../images/arches/arches.png);

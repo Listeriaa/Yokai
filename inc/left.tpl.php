@@ -1,7 +1,7 @@
 <?php
 //Je veux afficher dans la presentation, un texte différent en fonction 
 //de la page où nous sommes.
-//Sur accueil, je veux afficher les données de $presentation correspondant a acceuil
+//Sur accueil, je veux afficher les données de $presentation correspondant a accueil par ex, sur les pages des yokai, je veux afficher juste leur nom
 //Je vais créer un tableau $presentation pour stocker mes données.
 $presentation = [
     "Yōkai on the watch" => [
