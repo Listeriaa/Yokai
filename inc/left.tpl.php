@@ -29,11 +29,12 @@ foreach ($yokais as $numYokai => $details) {
 
     <section class="left">
         <header>
-            <h1>Yōkai on the watch</h1>
+            <h1>Yōkai on the watch<span class="kanji">愛 妖怪</span></h1>
             <?php
             include 'inc/nav.tpl.php';
             ?>
         </header>
+
         <?php
         //je veux afficher seulement un h2 si je suis sur une page Yokai.
         //comme seules ces pages ont une variable $yokai, j'utilise isset 
@@ -41,7 +42,7 @@ foreach ($yokais as $numYokai => $details) {
         if (isset($yokai)):
             ?>
                 <section class="presentation presentation_yokai_responsive presentation_responsive">
-                <h2><?=$presentation[$yokai]?></h2>
+                <h2>Découvrez le <?=$presentation[$yokai]?>...</h2>
                 </section>
             <?php
             

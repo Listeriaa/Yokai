@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    background-color: #fafafa;
     background-image: url(../images/arches/arches.png);
     color: #655a48;
     font-family: 'IM Fell Double Pica', serif;
@@ -15,7 +16,17 @@ header {
     text-align: center;
     
 }
+h1{
+    font-size: 2em;
+    font-weight: bolder;
+    padding:0.4em;
+   
+}
 
+.kanji {
+    padding-top:0.5em;
+    display: block;
+}
 /* CSS des liens <a>*/
 a {
     display: block;
@@ -24,10 +35,7 @@ a {
     color: #655a48;
     font-weight: bolder;
 }
-h1 {
-    font-size: 2em;
-    padding: 1em 0;
-}
+
 
 /*gestion menu Nav*/
 nav {
@@ -35,6 +43,7 @@ nav {
     margin:0 auto;
     border-top: 1px solid #cabca3;
     border-bottom: 1px solid #cabca3;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 1);
 }
 nav ul {
     
@@ -92,6 +101,7 @@ footer {
     background-image: url(../images/groovepaper/groovepaper.png);
     border-top: 1px solid #cabca3;
     font-size: smaller;
+    
 }
 footer a {
     display: inline;
@@ -102,6 +112,13 @@ footer p {
 .footer_screen {
     display:none;
 }
+
+/* page en construction*/
+.construction {
+    height: 60vh;
+    text-align: center;
+    
+}
 /*gestion page accueil en responsive*/
 
 .presentation_responsive, .summary_responsive{
@@ -111,6 +128,7 @@ footer p {
     text-align: center;
     background-image: url(../images/groovepaper/groovepaper.png);
     border: 1px solid #cabca3;
+    box-shadow: 3px 4px 9px rgba(0, 0, 0, 1);
   
 }
 .presentation_responsive h2 {
@@ -145,6 +163,7 @@ footer p {
     margin : 2em auto;
     text-align: center;
     border: 1px solid #cabca3;
+    box-shadow: 3px 4px 9px rgba(0, 0, 0, 1);
 }
 .page_article h2 {
     padding: 1.2em;
@@ -177,6 +196,7 @@ footer p {
         width: 60%;
         padding:1em;
     }
+
 }
 
 @media screen and (min-width: 700px) {
@@ -193,8 +213,10 @@ footer p {
 @media screen and (min-width: 1200px) {
     body {
         display:flex;
+        background-image: url(../images/groovepaper/groovepaper.png);
+        
     }
-    .left, .right {
+    .left, .right, .page_article {
         width: 50%;
     }
     .footer_responsive_hidden {
@@ -203,26 +225,46 @@ footer p {
     .footer_screen {
         display: block;
         width:100%;
-        position: absolute;
-        bottom:0;
+      
     }
     .left {
         height: 100vh;
         position:fixed;
-        background: url(../images/accueil.jpg) no-repeat center;
-        background-size: cover;
+        background-image: url(../images/kanji.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 80%;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column;
         justify-content: space-between;
+         
     }
     h1 {
         background-image: url(../images/groovepaper/groovepaper.png);
     }
-    .right {
+    .right, .page_article {
         margin-left:50%;
         margin-top:0;
         margin-bottom: 0;
         background-image: url(../images/arches/arches.png);
     }
-    
+    .presentation_yokai_responsive {
+        display:block;
+    }
+    .page_article article{
+        background-image: url(../images/arches/arches.png);
+        width:100%;
+        margin:0;
+    }
+    .summary_responsive{
+        box-shadow: none;
+    }
+    nav, .page_article>article {
+        box-shadow: none;
+    }
+    .construction {
+        height: 100vh;
+       padding-top: 20%;
+       border-left: 1px solid #cabca3;
+    }
 }
