@@ -2,7 +2,7 @@
 // include 'data.php';
 $nav = [
     "Accueil"   => "index.php",
-    "Yokai" => [],
+    "Yōkai" => [],
     "Aller plus loin"   => "aller_plus_loin.php"
 ];
 
@@ -15,7 +15,7 @@ foreach ($yokais as $numYokai => $details) {
 };
 
 //je rajoute ce tableau en valeur de ma clé Yokai dans le tableau nav
-$nav['Yokai'] = $tableau;
+$nav['Yōkai'] = $tableau;
 
 ?>
 

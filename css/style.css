@@ -138,7 +138,9 @@ footer p {
     border-radius: 50%;
     
 }
-
+.presentation_yokai {
+    display : none;
+}
 /*page Yokai en responsive*/
 .page_article article {
     background-image: url(../images/groovepaper/groovepaper.png);
@@ -170,9 +172,22 @@ footer p {
     margin: 1em 0;
 }
 
+@media screen and (min-width: 500px) {
 
-@media screen and (min-width: 550px) {
+    .image_float{
+        float: right;
+        width: 60%;
+        padding:1em;
+    }
+}
+
+@media screen and (min-width: 700px) {
     body {
         font-size: 1.5em;
+    }
+    .image_float{
+        float: right;
+        width: 60%;
+        padding:1em;
     }
 }

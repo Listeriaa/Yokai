@@ -1,7 +1,7 @@
 <section class="page_article">
 <article>
     <h2><?=$yokais[$yokai]["nom"]?> <?=$yokais[$yokai]["japonais"]?></h2>
-    <div class="image_article_responsive">
+    <div class="image_article_responsive image_float">
         <img src="images/<?=$yokais[$yokai]["image"]?>" alt="illustration de <?=$yokais[$yokai]["nom"]?>">
     </div>
     <div class="descriptif_article_responsive">

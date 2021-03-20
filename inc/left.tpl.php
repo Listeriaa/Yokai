@@ -4,13 +4,13 @@
 //Sur accueil, je veux afficher les données de $presentation correspondant a acceuil
 //Je vais créer un tableau $presentation pour stocker mes données.
 $presentation = [
-    "Yokai on the watch" => [
-        'h2' => "Qu'est ce qu'un Yokai?",
-        'p' => "lorem50"
+    "Yōkai on the watch" => [
+        'h2' => "Qu'est ce qu'un yōkai?",
+        'p' => "Les yōkai (妖怪, « esprit », « fantôme », « démon », « apparition étrange ») sont un type de créatures surnaturelles dans le folklore japonais. Il est souvent représenté comme un esprit malfaisant ou simplement malicieux démontrant les tracas quotidiens ou inhabituels."
     ],
     "Aller plus loin" =>[
-        'h2' => "Encore plus de Yokais",
-        'p' => "Il existe de nombreuses ressources pour en apprendre plus sur les Yokais : mangas, animes, podcasts....<br>En voici quelques unes pour aller plus loin dans le monde des Yokais."
+        'h2' => "Encore plus de yōkai",
+        'p' => "Il existe de nombreuses ressources pour en apprendre plus sur les yōkai : mangas, animes, podcasts....<br>En voici quelques unes pour aller plus loin dans le monde des yōkai."
     ]
 ];
 
@@ -23,17 +23,13 @@ foreach ($yokais as $numYokai => $details) {
     $presentation[$numYokai] = $details['nom'];
 };
 
-var_dump($presentation);
-
-
-
 ?>
 
 <body>
 
     <section class="left">
         <header>
-            <h1>Yokai on the watch</h1>
+            <h1>Yōkai on the watch</h1>
             <?php
             include 'inc/nav.tpl.php';
             ?>
@@ -44,7 +40,7 @@ var_dump($presentation);
     //dans mon IF.
     if (isset($yokai)):
         ?>
-            <section class="presentation presentation_responsive">
+            <section class="presentation presentation_yokai presentation_responsive">
             <h2><?=$presentation[$yokai]?></h2>
             </section>
         <?php
