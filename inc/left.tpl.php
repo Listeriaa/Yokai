@@ -32,14 +32,14 @@ $presentation = [
         //dans mon IF.
         if (isset($yokai)):
             ?>
-                <section class="presentation_yokai_responsive presentation_responsive">
+                <section class="transparent presentation_yokai_responsive presentation_responsive">
                 <h2><?=$yokais[$yokai]['nom']?> <?=$yokais[$yokai]['japonais']?></h2>
                 </section>
             <?php
             
             else :
             ?>
-                <section class="presentation_responsive">
+                <section class="transparent presentation_responsive">
                 <h2><?=$presentation[$title]['h2']?></h2>
                 <p><?=$presentation[$title]['p']?></p>
             </section>
