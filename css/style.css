@@ -10,7 +10,9 @@ body {
     color: #655a48;
     font-family: 'IM Fell Double Pica', serif;
 }
-
+i {
+    font-style: italic;
+}
 .flex {
     display: flex;
 }
@@ -240,7 +242,7 @@ footer p {
 @media screen and (min-width: 1200px) {
     body {
         display: flex;
-        /* background-image: url(../images/groovepaper/groovepaper.png); */
+        
 
     }
 
@@ -270,7 +272,7 @@ footer p {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
-
+        
     }
 
     h1 {
@@ -279,9 +281,10 @@ footer p {
 
     .right,
     .page_article {
+        border-left: 1px solid #cabca3;
         margin-left: 50%;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 0em;
         background-image: url(../images/arches/arches.png);
     }
 
@@ -298,12 +301,18 @@ footer p {
 
     .descriptif_article_responsive {
         padding: 2em;
+        height:100vh;
+       
     }
 
     .page_article article {
         background-image: url(../images/arches/arches.png);
         width: 100%;
+        
         margin: 0;
+        box-shadow: none;
+        border:none;
+        padding-bottom: 2em;
     }
 
     .image_float {

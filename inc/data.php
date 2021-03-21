@@ -58,27 +58,27 @@ $yokais = [
     5 => [
         'nom' => "Katakirauwa",
         'image' => "Katakirauwa.jpg",
-        'japonais' => "袋狢",
-        'habitat' => "maison",
-        'apparence' => "gros et moche",
-        'traduction' => "Chat Monstre",
+        'japonais' => " 片耳豚",
+        'habitat' => "Îles Amami près d'Okinawa.",
+        'apparence' => "Doté d'une seule oreille et d'yeux écarlates, le Katakirauwa a l'aspect d'un cochon à la peau noire. Il ne possède pas d'ombre.",
+        'traduction' => "Cochon à une oreille.",
 
-        'origine' => "Pour devenir un bakeneko, il suffit qu'un chat ordinaire réponde à trois critères : avoir au moins 13 ans, peser plus de 3.5kg, et posséder une queue anormalement longue.<br> Née sous l'époque Edo (1603-1868), cette légende a eu pour conséquence une coutume encore répandue aujourd'hui au Japon, qui consiste à couper la queue des chatons pour éviter leur transformation en chat-monstre. ",
+        'origine' => "Peu d'écrits sur son origine. En revanche, ce yōkai est récurrent dans la série de jeux videos très populaire au Japon : <i>Shin Megami Tensei</i>.",
 
-        'comportement' => "Les Bakeneko possèdent de multiples pouvoirs relativement problématiques. Ils sont capables de prendre l'apparence d'un humain  et de parler. Certaines légendes affirment que les Bakeneko peuvent dévorer leur maître, prenant son apparence ainsi que sa place dans le foyer.<br> Il est également soupçonné de pouvoir ressusciter les morts et de les manipuler pour leurs sombres desseins. Au Japon, on ne laisse pas un chat s'approcher d'un mort! <br> Ils sont également une menace pour la maisonnée qui les accueille, puisqu'ils peuvent faire apparaître des boules de feu, risquant ainsi d'incendier les habitations. "
+        'comportement' => "Le Katakirauwa n'est ni énorme ni particulièrement effrayant mais il n'en demeure pas moins redoutable. Il se met à l'affût et hume les environs en quête de sa proie. Dès qu'une victime est à sa portée, il va lui foncer dessus à la vitesse de l'éclair et lui passer entre les jambes. S'il y parvient, il lui volera son âme. Un bon moyen d'éviter de devenir une coquille vide est de serrer les jambes dès que vous sentez une odeur de goudron, caractéristique de ce yōkai."
 
     ],
     6 => [
         'nom' => "Rokurokubi",
         'image' => "rokurokubi.jpg",
-        'japonais' => "袋狢",
-        'habitat' => "maison",
-        'apparence' => "gros et moche",
-        'traduction' => "Chat Monstre",
+        'japonais' => "轆轤首",
+        'habitat' => "L'ensemble du Japon.",
+        'apparence' => "Ce yōkai ressemble à n'importe quel femme ordinaire dans la journée, inconsciente de son état de yōkai, mais la nuit, son cou s'étire dans des proportions incroyables. Dans les plus anciens écrits antérieurs à l'époque Edo (1595-1868), le cou ne s'étirait pas, mais la tête se détachait complétement du corps (yōkai aussi appelé <i>Nukekubi</i>).",
+        'traduction' => "Cou-corde (<i>Rokuro</i> peut faire référence à la corde utilisée pour tirer l'eau d'un puits).",
 
-        'origine' => "Pour devenir un bakeneko, il suffit qu'un chat ordinaire réponde à trois critères : avoir au moins 13 ans, peser plus de 3.5kg, et posséder une queue anormalement longue.<br> Née sous l'époque Edo (1603-1868), cette légende a eu pour conséquence une coutume encore répandue aujourd'hui au Japon, qui consiste à couper la queue des chatons pour éviter leur transformation en chat-monstre. ",
+        'origine' => "Les Rokurokubi ne sont pas nés monstres contrairement à d'autres yōkai. Il s'agit d'anciens humains maudits pour avoir offensé les <i>kami</i> (divinités au Japon) ou les préceptes bouddhistes, ou revenant assouvir une vengeance personnelle. Ils sont quasiment exclusivement de sexe féminin, même si de rares légendes font référence à des yōkai masculins.",
 
-        'comportement' => "Les Bakeneko possèdent de multiples pouvoirs relativement problématiques. Ils sont capables de prendre l'apparence d'un humain  et de parler. Certaines légendes affirment que les Bakeneko peuvent dévorer leur maître, prenant son apparence ainsi que sa place dans le foyer.<br> Il est également soupçonné de pouvoir ressusciter les morts et de les manipuler pour leurs sombres desseins. Au Japon, on ne laisse pas un chat s'approcher d'un mort! <br> Ils sont également une menace pour la maisonnée qui les accueille, puisqu'ils peuvent faire apparaître des boules de feu, risquant ainsi d'incendier les habitations. "
+        'comportement' => "Les Rokurokubi profitent des heures sombres de la nuit pour étirer leur cou et jouer des tours aux humains. Si certains se contentent de boire l'huile des lanternes, d'autres vont en profiter pour effrayer ou espionner leurs victimes. Les Nukekubi (dont la tête se détache) sont en revanche beaucoup plus violents et peuvent boire le sang de leur proie et les dévorer. Un moyen de s'en débarrasser est de profiter que la tête soit loin de son corps pour cacher ce dernier : le yōkai finira par mourir."
 
     ]
 
