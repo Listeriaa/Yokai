@@ -4,6 +4,7 @@
 
 Il s'agit d'un projet personnel, sur le format d'un **blog**, ayant pour sujet les êtres fascinants que sont les *yōkai*.
 Je souhaitais que les pages de chaque yōkai soit générée dynamiquement.
+(http://yokai.laetitia-rolland.com/)
 
 ## Qui suis-je?
 
