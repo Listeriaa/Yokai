@@ -6,7 +6,7 @@
 $presentation = [
     "Yōkai on the watch" => [
         'h2' => "Qu'est ce qu'un yōkai?",
-        'p' => "Les yōkai (妖怪, « esprit », « fantôme », « démon », « apparition étrange ») sont un type de créatures surnaturelles dans le folklore japonais. Il est souvent représenté comme un esprit malfaisant ou simplement malicieux démontrant les tracas quotidiens ou inhabituels."
+        'p' => "Les yōkai (妖怪, « esprit », « fantôme ») sont un type de créatures surnaturelles dans le folklore japonais. Ils peuvent être malfaisants et dangereux, comme la célèbre Kuchisake onna (« femme à la bouche fendue ») ou juste malicieux à l'instar de l'Akaname (« lèche-crasse ») dont le seul hobbie est de lécher la saleté des baignoires.  Au Japon, encore aujourd'hui, la plupart des phénomènes surnaturels ou inexplicables sont attribués aux yōkai, et bien qu'ils existent depuis le moyen-âge nippon, certains sont nés récemment, grâce à l'imagination de mangakas comme Shigeru Mizuki."
     ],
     "Aller plus loin" =>[
         'h2' => "Encore plus de yōkai",
