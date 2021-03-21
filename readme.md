@@ -32,8 +32,10 @@ Le projet est quasiment fini mais la page *aller plus loin* est en construction,
 
 ### Améliorations à venir
 Je commence l'apprentissage de Javascript et j'espère pouvoir l'utiliser notamment pour la gestion du sous-menu (je n'en suis pas trop satisfaite), ainsi que pour ajouter un effet sur les liens des articles la page d'accueil.
+J'aimerais également afficher plus d'infos dans chaque apercu d'article sur la page d'accueil de la version PC.
 
 ## Aperçu
+Je mets un screen pour chaque version : mobile et PC.
 
 ![capture écran pc version](images/yokaiscreen.png)                     ![capture écran mobile version](images/yokairesp.png)  
 
