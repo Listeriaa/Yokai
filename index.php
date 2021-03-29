@@ -9,7 +9,7 @@ include "inc/header.tpl.php";
 <?php
 include 'inc/left.tpl.php';
 ?>
-    </section>
+    
     <section class="right summary_responsive flex">
         <?php
         //je souhaite afficher l'image et le nom de chaque page Yokai sur ma page accueil, gestion du lien vers la page via GET
@@ -20,9 +20,9 @@ include 'inc/left.tpl.php';
                     <div class="image image_responsive">
                         <img src="images/<?= $detail['image'] ?>" alt="illustration de <?= $detail['nom'] ?>">
                     </div>
-                    <div class="titre_image black">
+                    <h2 class="titre_image black">
                         <?= $detail['nom'] ?>
-                    </div>
+                    </h2>
                 </article>
             </a>
         <?php

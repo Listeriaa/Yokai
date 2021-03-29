@@ -42,7 +42,7 @@ $presentation = [
                 <section class="transparent presentation_responsive">
                 <h2><?=$presentation[$title]['h2']?></h2>
                 <p><?=$presentation[$title]['p']?></p>
-            </section>
+                </section>
             <?php
             endif;
         include 'inc/footer/footer.screen.tpl.php';
