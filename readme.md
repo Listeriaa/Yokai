@@ -4,7 +4,7 @@
 
 Il s'agit d'un projet personnel, sur le format d'un **blog**, ayant pour sujet les êtres fascinants que sont les *yōkai*.
 Je souhaitais que les pages de chaque yōkai soit générée dynamiquement.
-(http://yokai.laetitia-rolland.com/)
+(http://yokaiv1.laetitia-dev.com/)
 
 ## Qui suis-je?
 
@@ -37,7 +37,7 @@ J'aimerais également afficher plus d'infos dans chaque apercu d'article sur la 
 ## Version en ligne
 
 Il est visible sur mon portfolio - qui doit être retravaillé, je l'avais fait il y a un an, après m'être auto-formée a HTML et CSS.
-(http://yokai.laetitia-rolland.com/)
+(http://yokaiv1.laetitia-dev.com/)
 
 ## Aperçu
 
